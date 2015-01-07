@@ -51,6 +51,9 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.27'
         // runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
         test "org.grails:grails-datastore-test-support:1.0-grails-2.3"
+
+        build "org.quartz-scheduler:quartz:2.2.1"
+        build "org.quartz-scheduler:quartz-jobs:2.2.1"
     }
 
     plugins {
